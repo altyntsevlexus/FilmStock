@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/FilmStock/static/css/main.72748cf4.chunk.css",
-    "main.js": "/FilmStock/static/js/main.d00e97ee.chunk.js",
-    "main.js.map": "/FilmStock/static/js/main.d00e97ee.chunk.js.map",
+    "main.css": "/FilmStock/static/css/main.8fe9752f.chunk.css",
+    "main.js": "/FilmStock/static/js/main.add31bce.chunk.js",
+    "main.js.map": "/FilmStock/static/js/main.add31bce.chunk.js.map",
     "runtime-main.js": "/FilmStock/static/js/runtime-main.79c855ed.js",
     "runtime-main.js.map": "/FilmStock/static/js/runtime-main.79c855ed.js.map",
-    "static/js/2.eeaa40ad.chunk.js": "/FilmStock/static/js/2.eeaa40ad.chunk.js",
-    "static/js/2.eeaa40ad.chunk.js.map": "/FilmStock/static/js/2.eeaa40ad.chunk.js.map",
+    "static/js/2.932a68ff.chunk.js": "/FilmStock/static/js/2.932a68ff.chunk.js",
+    "static/js/2.932a68ff.chunk.js.map": "/FilmStock/static/js/2.932a68ff.chunk.js.map",
     "index.html": "/FilmStock/index.html",
-    "static/css/main.72748cf4.chunk.css.map": "/FilmStock/static/css/main.72748cf4.chunk.css.map",
-    "static/js/2.eeaa40ad.chunk.js.LICENSE.txt": "/FilmStock/static/js/2.eeaa40ad.chunk.js.LICENSE.txt"
+    "static/css/main.8fe9752f.chunk.css.map": "/FilmStock/static/css/main.8fe9752f.chunk.css.map",
+    "static/js/2.932a68ff.chunk.js.LICENSE.txt": "/FilmStock/static/js/2.932a68ff.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.79c855ed.js",
-    "static/js/2.eeaa40ad.chunk.js",
-    "static/css/main.72748cf4.chunk.css",
-    "static/js/main.d00e97ee.chunk.js"
+    "static/js/2.932a68ff.chunk.js",
+    "static/css/main.8fe9752f.chunk.css",
+    "static/js/main.add31bce.chunk.js"
   ]
 }
