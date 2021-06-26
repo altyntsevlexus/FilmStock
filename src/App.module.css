@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&family=Voltaire&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Voltaire', sans-serif;
+	box-sizing: border-box;
+}
+
+body {
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+		url('https://cdn.slashgear.com/wp-content/uploads/2020/04/star-wars-backgrounds-25.jpg');
+}
+
+.Wrapper {
+	max-width: 1200px;
+	width: 100%;
+	margin: auto;
+	padding: 20px;
+}
+
+@media (min-width: 1200px) {
+	.Wrapper {
+		padding: 0px;
+	}
+}

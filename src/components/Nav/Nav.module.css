@@ -1,0 +1,54 @@
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+@media  (min-width: 1200px){
+    header{
+        flex-direction: row;
+    }
+} 
+
+.Logo{
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-size: 30px;
+    width: auto;
+    color: white;
+    animation: blink 3s infinite;
+}
+
+@keyframes blink {
+    0% { color: rgb(255, 250, 0); }
+	50% { color: rgb(255, 250, 187); }
+	100% { color: rgb(255, 250, 0); }
+}
+
+
+.NavBar{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.Nav{
+    max-width: 700px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+:global(a){
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+
+.Selected{
+    color: yellow;
+}

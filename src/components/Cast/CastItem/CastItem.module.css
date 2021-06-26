@@ -1,0 +1,43 @@
+.ActorPoster{
+    width: none;
+    height: 250px;
+}
+
+@media  (min-width: 1200px){
+    .ActorPoster{
+        width: 100%;
+        height: 350px;
+    }
+} 
+
+.ListItem{
+    position: relative;
+    text-align: center;
+}
+
+.ListItemOverlay{
+    opacity: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(2px);
+}
+
+.ListItemOverlay:hover{
+    opacity: 1;
+}
+
+.ItemTitle{
+    font-size: 15px;
+    font-weight: normal;
+    width: 50%;
+    margin: auto;
+    border: solid 5px white;
+    color: white;
+}

@@ -1,0 +1,11 @@
+li{
+    list-style: none;
+}
+
+.CastList{
+    padding: 0px;
+    display: grid;  
+    grid-gap: 20px;  
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-content: center;
+}

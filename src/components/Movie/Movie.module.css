@@ -1,0 +1,65 @@
+.MoviePoster{
+    width: 300px;
+}
+
+.MovieAdditionalBlock{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.CastButton{
+    background: none;
+    width: 150px;
+    height: 50px;
+    color: white;
+    font-size: 35px;
+    border: 3px solid yellow;
+    outline: none;
+    cursor: pointer;
+}
+
+
+
+.AboutMovie{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+@media  (min-width: 1200px){
+    .AboutMovie{
+        align-items: flex-start;
+        flex-direction: row;
+    }
+} 
+
+.MovieDescriptionBlock{
+    max-width: 70%;
+    width: 100%;  
+    color: white;  
+    display: flex;
+    flex-flow: column;
+}
+
+.MovieTitle{
+    font-size: 50px;
+    margin: 0 0 0;
+}
+
+.MovieOverview{
+    margin: 20px 0;
+    font-size: 25px;
+}
+
+.backgroundImage{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -2;
+    top: 0;
+    left: 0;
+    filter: blur(10px) brightness(20%);
+}
